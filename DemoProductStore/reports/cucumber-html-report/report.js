@@ -8,9 +8,9 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 3,
-  "name": "",
-  "description": "To place order",
-  "id": "demo-product-store;",
+  "name": "To place order",
+  "description": "",
+  "id": "demo-product-store;to-place-order",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -49,42 +49,42 @@ formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.launchBrowser()"
 });
 formatter.result({
-  "duration": 23518082443,
+  "duration": 47974249623,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.productStore()"
 });
 formatter.result({
-  "duration": 8841942400,
+  "duration": 33438931139,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.clickPlaceOrder()"
 });
 formatter.result({
-  "duration": 25162069419,
+  "duration": 36133986344,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.fillDetails()"
 });
 formatter.result({
-  "duration": 17064325641,
+  "duration": 21073981518,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.quit()"
 });
 formatter.result({
-  "duration": 891397549,
+  "duration": 3819957124,
   "status": "passed"
 });
 formatter.scenario({
   "line": 12,
-  "name": "",
-  "description": "To handle a invalid place order",
-  "id": "demo-product-store;",
+  "name": "To handle a invalid place order",
+  "description": "",
+  "id": "demo-product-store;to-handle-a-invalid-place-order",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -123,42 +123,42 @@ formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.launchBrowser()"
 });
 formatter.result({
-  "duration": 8027417862,
+  "duration": 12917391565,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.productStore()"
 });
 formatter.result({
-  "duration": 4458802032,
+  "duration": 11786483892,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.clickPlaceOrder()"
 });
 formatter.result({
-  "duration": 13158012774,
+  "duration": 11909694716,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.purchase()"
 });
 formatter.result({
-  "duration": 9651862105,
+  "duration": 9789017114,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.close()"
 });
 formatter.result({
-  "duration": 3322213344,
+  "duration": 6842601113,
   "status": "passed"
 });
 formatter.scenario({
   "line": 21,
-  "name": "",
-  "description": "To count the number of mobiles present  in the webpage",
-  "id": "demo-product-store;",
+  "name": "To count the number of mobiles present  in the webpage",
+  "description": "",
+  "id": "demo-product-store;to-count-the-number-of-mobiles-present--in-the-webpage",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -192,35 +192,35 @@ formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.launchapp()"
 });
 formatter.result({
-  "duration": 6057709424,
+  "duration": 15185600361,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Product_store()"
 });
 formatter.result({
-  "duration": 7540349682,
+  "duration": 18191422358,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Elementscount()"
 });
 formatter.result({
-  "duration": 3173977583,
+  "duration": 9034321860,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Close()"
 });
 formatter.result({
-  "duration": 462893582,
+  "duration": 973196024,
   "status": "passed"
 });
 formatter.scenario({
   "line": 29,
-  "name": "",
-  "description": "To check the user is able to play the video",
-  "id": "demo-product-store;",
+  "name": "To check the user is able to play the video",
+  "description": "",
+  "id": "demo-product-store;to-check-the-user-is-able-to-play-the-video",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -254,35 +254,35 @@ formatter.match({
   "location": "AboutUsPage_Stepdefinition.launch_Browser()"
 });
 formatter.result({
-  "duration": 4470926801,
+  "duration": 10412294494,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.product_store()"
 });
 formatter.result({
-  "duration": 6028333558,
+  "duration": 10116892996,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.click_aboutus()"
 });
 formatter.result({
-  "duration": 12980530837,
+  "duration": 12430167005,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.close()"
 });
 formatter.result({
-  "duration": 2149035798,
+  "duration": 6950375467,
   "status": "passed"
 });
 formatter.scenario({
   "line": 38,
-  "name": "",
-  "description": "To print name of the apple motitor",
-  "id": "demo-product-store;",
+  "name": "To print price of the apple motitor",
+  "description": "",
+  "id": "demo-product-store;to-print-price-of-the-apple-motitor",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -321,35 +321,35 @@ formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.launch_Browser()"
 });
 formatter.result({
-  "duration": 8219701851,
+  "duration": 19361332346,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.user_Opens_demo_app()"
 });
 formatter.result({
-  "duration": 8406518350,
+  "duration": 21282029110,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.the_user_clicks_monitors()"
 });
 formatter.result({
-  "duration": 12380628703,
+  "duration": 12646833643,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.click_apple_monitor_and_print_price()"
 });
 formatter.result({
-  "duration": 8338986745,
+  "duration": 14601319480,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.close_app()"
 });
 formatter.result({
-  "duration": 545526654,
+  "duration": 5847455058,
   "status": "passed"
 });
 });
