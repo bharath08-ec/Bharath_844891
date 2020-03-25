@@ -1,5 +1,7 @@
 package com.DemoProductStore.StepDefinition;
 
+import java.io.IOException;
+
 import com.DemoProductStore.pagesobjects.ValidPlaceOrder;
 
 import cucumber.api.java.en.And;
@@ -30,7 +32,7 @@ public void clickPlaceOrder() throws InterruptedException {
 }
 
 @Then("^The user enters all the valid details to purchase the product$")
-public void fillDetails() throws InterruptedException {
+public void fillDetails() throws InterruptedException, IOException {
 	placeorder.fillDetails();
 }
 

@@ -1,9 +1,14 @@
 package com.DemoProductStore.pagesobjects;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -72,7 +77,7 @@ public class ValidPlaceOrder {
 		driver.findElement(Placeorder).click();
 	}
 //To enter all the valid details to purchase
-	public void fillDetails() throws InterruptedException
+	public void fillDetails() throws InterruptedException, IOException
 	{
 		Thread.sleep(3000);
 		driver.findElement(Name).sendKeys("Bharath");
@@ -83,11 +88,15 @@ public class ValidPlaceOrder {
 		driver.findElement(Year).sendKeys("2020");
 		Thread.sleep(3000);
 		driver.findElement(Purchase).click();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
+		 TakesScreenshot snap = (TakesScreenshot)driver;
+		 File source = snap.getScreenshotAs(OutputType.FILE);
+		 FileUtils.copyFile(source, new File("src/test/resources/Screenshot/ValidPlaceOrder.png"));
 		String s=driver.findElement(By.xpath("/html/body/div[10]/h2")).getText();
 		System.out.println(s);
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("/html/body/div[10]/div[7]/div/button")).click();
+		
 		}
 //To close the browser
 	public void quit()
