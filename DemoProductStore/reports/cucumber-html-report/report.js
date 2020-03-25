@@ -49,35 +49,35 @@ formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.launchBrowser()"
 });
 formatter.result({
-  "duration": 47974249623,
+  "duration": 75881587686,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.productStore()"
 });
 formatter.result({
-  "duration": 33438931139,
+  "duration": 33607525070,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.clickPlaceOrder()"
 });
 formatter.result({
-  "duration": 36133986344,
+  "duration": 34915897569,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.fillDetails()"
 });
 formatter.result({
-  "duration": 21073981518,
+  "duration": 19541660265,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.quit()"
 });
 formatter.result({
-  "duration": 3819957124,
+  "duration": 1472038230,
   "status": "passed"
 });
 formatter.scenario({
@@ -123,35 +123,35 @@ formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.launchBrowser()"
 });
 formatter.result({
-  "duration": 12917391565,
+  "duration": 9765537159,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.productStore()"
 });
 formatter.result({
-  "duration": 11786483892,
+  "duration": 5810947982,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.clickPlaceOrder()"
 });
 formatter.result({
-  "duration": 11909694716,
+  "duration": 9277901289,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.purchase()"
 });
 formatter.result({
-  "duration": 9789017114,
+  "duration": 6271582091,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.close()"
 });
 formatter.result({
-  "duration": 6842601113,
+  "duration": 4422596425,
   "status": "passed"
 });
 formatter.scenario({
@@ -192,28 +192,28 @@ formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.launchapp()"
 });
 formatter.result({
-  "duration": 15185600361,
+  "duration": 11302285991,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Product_store()"
 });
 formatter.result({
-  "duration": 18191422358,
+  "duration": 18192039325,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Elementscount()"
 });
 formatter.result({
-  "duration": 9034321860,
+  "duration": 3628088552,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Close()"
 });
 formatter.result({
-  "duration": 973196024,
+  "duration": 1025703839,
   "status": "passed"
 });
 formatter.scenario({
@@ -254,28 +254,28 @@ formatter.match({
   "location": "AboutUsPage_Stepdefinition.launch_Browser()"
 });
 formatter.result({
-  "duration": 10412294494,
+  "duration": 12113851966,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.product_store()"
 });
 formatter.result({
-  "duration": 10116892996,
+  "duration": 5561075704,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.click_aboutus()"
 });
 formatter.result({
-  "duration": 12430167005,
+  "duration": 15886809485,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.close()"
 });
 formatter.result({
-  "duration": 6950375467,
+  "duration": 1851812830,
   "status": "passed"
 });
 formatter.scenario({
@@ -321,35 +321,35 @@ formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.launch_Browser()"
 });
 formatter.result({
-  "duration": 19361332346,
+  "duration": 7791816217,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.user_Opens_demo_app()"
 });
 formatter.result({
-  "duration": 21282029110,
+  "duration": 5594808999,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.the_user_clicks_monitors()"
 });
 formatter.result({
-  "duration": 12646833643,
+  "duration": 6706886716,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.click_apple_monitor_and_print_price()"
 });
 formatter.result({
-  "duration": 14601319480,
+  "duration": 5614653200,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.close_app()"
 });
 formatter.result({
-  "duration": 5847455058,
+  "duration": 2326289837,
   "status": "passed"
 });
 });
