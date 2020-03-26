@@ -1,19 +1,17 @@
 package com.DemoProductStore.pagesobjects;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileUtils;
+
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
+
 
 public class InvalidPlaceOrder {
 	WebDriver driver;
@@ -67,13 +65,15 @@ public void clickPlaceOrder() throws InterruptedException
 	
 }
 //To purchase the product by giving invalid details 
-public void purchase() throws InterruptedException, IOException
+public void purchase() throws InterruptedException
 {
 	Thread.sleep(3000);
 	driver.findElement(purchase).click();
 	Thread.sleep(3000);
 	Alert b=driver.switchTo().alert();
 	b.accept();
+	
+
 }
 //To close the browser
 public void close() throws InterruptedException

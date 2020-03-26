@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 75881587686,
+              "duration": 69243569849,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 33607525070,
+              "duration": 29631429339,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 34915897569,
+              "duration": 32953223844,
               "status": "passed"
             },
             "line": 7,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 19541660265,
+              "duration": 22028803041,
               "status": "passed"
             },
             "line": 8,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 1472038230,
+              "duration": 2724652123,
               "status": "passed"
             },
             "line": 9,
@@ -88,7 +88,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9765537159,
+              "duration": 13769365565,
               "status": "passed"
             },
             "line": 14,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 5810947982,
+              "duration": 9465469919,
               "status": "passed"
             },
             "line": 15,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 9277901289,
+              "duration": 12527331459,
               "status": "passed"
             },
             "line": 16,
@@ -124,8 +124,9 @@
           },
           {
             "result": {
-              "duration": 6271582091,
-              "status": "passed"
+              "duration": 6938412895,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.DemoProductStore.StepDefinition.InvalidPlaceOrder_Stepdefinition.purchase(InvalidPlaceOrder_Stepdefinition.java:36)\r\n\tat ✽.Then The user enters the invalid details to purchase the product(src/main/resources/Features/DemoProductStore.Feature:17)\r\n",
+              "status": "failed"
             },
             "line": 17,
             "name": "The user enters the invalid details to purchase the product",
@@ -136,8 +137,7 @@
           },
           {
             "result": {
-              "duration": 4422596425,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "user close the application",
@@ -164,7 +164,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11302285991,
+              "duration": 12112525985,
               "status": "passed"
             },
             "line": 23,
@@ -176,7 +176,7 @@
           },
           {
             "result": {
-              "duration": 18192039325,
+              "duration": 20562897174,
               "status": "passed"
             },
             "line": 24,
@@ -188,7 +188,7 @@
           },
           {
             "result": {
-              "duration": 3628088552,
+              "duration": 4053227437,
               "status": "passed"
             },
             "line": 25,
@@ -200,7 +200,7 @@
           },
           {
             "result": {
-              "duration": 1025703839,
+              "duration": 2110667901,
               "status": "passed"
             },
             "line": 26,
@@ -228,7 +228,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12113851966,
+              "duration": 17592180990,
               "status": "passed"
             },
             "line": 31,
@@ -240,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 5561075704,
+              "duration": 17100139442,
               "status": "passed"
             },
             "line": 32,
@@ -252,7 +252,7 @@
           },
           {
             "result": {
-              "duration": 15886809485,
+              "duration": 12335050550,
               "status": "passed"
             },
             "line": 33,
@@ -264,7 +264,7 @@
           },
           {
             "result": {
-              "duration": 1851812830,
+              "duration": 4053417010,
               "status": "passed"
             },
             "line": 34,
@@ -292,7 +292,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7791816217,
+              "duration": 9977116822,
               "status": "passed"
             },
             "line": 40,
@@ -304,7 +304,7 @@
           },
           {
             "result": {
-              "duration": 5594808999,
+              "duration": 10849812395,
               "status": "passed"
             },
             "line": 41,
@@ -316,7 +316,7 @@
           },
           {
             "result": {
-              "duration": 6706886716,
+              "duration": 6464875538,
               "status": "passed"
             },
             "line": 42,
@@ -328,7 +328,7 @@
           },
           {
             "result": {
-              "duration": 5614653200,
+              "duration": 8949649342,
               "status": "passed"
             },
             "line": 43,
@@ -340,7 +340,7 @@
           },
           {
             "result": {
-              "duration": 2326289837,
+              "duration": 2755699579,
               "status": "passed"
             },
             "line": 44,

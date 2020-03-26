@@ -2,12 +2,15 @@ package com.DemoProductStore.StepDefinition;
 
 import java.io.IOException;
 
+import org.junit.Assert;
+
 import com.DemoProductStore.pagesobjects.InvalidPlaceOrder;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+
 
 public class InvalidPlaceOrder_Stepdefinition {
 	//Invalid place of order
@@ -30,6 +33,7 @@ public class InvalidPlaceOrder_Stepdefinition {
 		@Then("^The user enters the invalid details to purchase the product$")
 		public void purchase() throws InterruptedException, IOException{
 			invalidorder.purchase();
+			Assert.assertTrue(false);
 		    
 		}
 
