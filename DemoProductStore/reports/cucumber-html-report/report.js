@@ -49,35 +49,35 @@ formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.launchBrowser()"
 });
 formatter.result({
-  "duration": 69243569849,
+  "duration": 76346889933,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.productStore()"
 });
 formatter.result({
-  "duration": 29631429339,
+  "duration": 60081785814,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.clickPlaceOrder()"
 });
 formatter.result({
-  "duration": 32953223844,
+  "duration": 41779835510,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.fillDetails()"
 });
 formatter.result({
-  "duration": 22028803041,
+  "duration": 24176458793,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidPlaceOrder_Stepdefinition.quit()"
 });
 formatter.result({
-  "duration": 2724652123,
+  "duration": 1518119400,
   "status": "passed"
 });
 formatter.scenario({
@@ -123,36 +123,36 @@ formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.launchBrowser()"
 });
 formatter.result({
-  "duration": 13769365565,
+  "duration": 9770147466,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.productStore()"
 });
 formatter.result({
-  "duration": 9465469919,
+  "duration": 5981524553,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.clickPlaceOrder()"
 });
 formatter.result({
-  "duration": 12527331459,
+  "duration": 15396371432,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.purchase()"
 });
 formatter.result({
-  "duration": 6938412895,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.DemoProductStore.StepDefinition.InvalidPlaceOrder_Stepdefinition.purchase(InvalidPlaceOrder_Stepdefinition.java:36)\r\n\tat ✽.Then The user enters the invalid details to purchase the product(src/main/resources/Features/DemoProductStore.Feature:17)\r\n",
-  "status": "failed"
+  "duration": 7775416144,
+  "status": "passed"
 });
 formatter.match({
   "location": "InvalidPlaceOrder_Stepdefinition.close()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3908354705,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 21,
@@ -192,28 +192,28 @@ formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.launchapp()"
 });
 formatter.result({
-  "duration": 12112525985,
+  "duration": 17676735795,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Product_store()"
 });
 formatter.result({
-  "duration": 20562897174,
+  "duration": 18039260326,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Elementscount()"
 });
 formatter.result({
-  "duration": 4053227437,
+  "duration": 3580843255,
   "status": "passed"
 });
 formatter.match({
   "location": "CountOfMobilePage_Stepdefinition.Close()"
 });
 formatter.result({
-  "duration": 2110667901,
+  "duration": 2745626915,
   "status": "passed"
 });
 formatter.scenario({
@@ -254,28 +254,28 @@ formatter.match({
   "location": "AboutUsPage_Stepdefinition.launch_Browser()"
 });
 formatter.result({
-  "duration": 17592180990,
+  "duration": 7711913468,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.product_store()"
 });
 formatter.result({
-  "duration": 17100139442,
+  "duration": 7587765047,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.click_aboutus()"
 });
 formatter.result({
-  "duration": 12335050550,
+  "duration": 14548788054,
   "status": "passed"
 });
 formatter.match({
   "location": "AboutUsPage_Stepdefinition.close()"
 });
 formatter.result({
-  "duration": 4053417010,
+  "duration": 4899516317,
   "status": "passed"
 });
 formatter.scenario({
@@ -321,35 +321,35 @@ formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.launch_Browser()"
 });
 formatter.result({
-  "duration": 9977116822,
+  "duration": 9201629160,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.user_Opens_demo_app()"
 });
 formatter.result({
-  "duration": 10849812395,
+  "duration": 6836024247,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.the_user_clicks_monitors()"
 });
 formatter.result({
-  "duration": 6464875538,
+  "duration": 9635123265,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.click_apple_monitor_and_print_price()"
 });
 formatter.result({
-  "duration": 8949649342,
+  "duration": 6581925256,
   "status": "passed"
 });
 formatter.match({
   "location": "PrintMonitorPrice_Stepdefinition.close_app()"
 });
 formatter.result({
-  "duration": 2755699579,
+  "duration": 2545424340,
   "status": "passed"
 });
 });
